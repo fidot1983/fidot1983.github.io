@@ -1,0 +1,29 @@
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+hr.dashed {
+  border-top: 1px dashed #ccc;
+}
+
+hr.docutils {
+  border-top: 1px dashed #ccc;
+}
+
+.first .last {
+  margin: 0px;
+}
+
+img.align-right {
+  margin: auto 0;
+}
+
+
+
+
