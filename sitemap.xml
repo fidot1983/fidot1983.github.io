@@ -5,48 +5,62 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/archives.html</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tags.html</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/categories.html</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/about/</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/swx-models/</loc>
-<lastmod>2019-03-28T01:57:31-00:00</lastmod>
+<lastmod>2019-04-06T21:49:35-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://79ft.net/entries/chickenhouse-chargermisc-2019-03-27-meet-81G/</loc>
+<loc>http://79ft.net/entries/chickenhouse-charger2019-annual-2019-04-06-annual/</loc>
+<lastmod>2019-04-06T00:00:00-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/chickenhouse-charger2019-annual-2019-03-30-annual/</loc>
+<lastmod>2019-03-30T00:00:00-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/chickenhouse-chargerblog-2019-03-27-meet-81G/</loc>
 <lastmod>2019-03-27T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -242,7 +256,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://79ft.net/category/chickenhouse-chargermisc.html</loc>
+<loc>http://79ft.net/category/chickenhouse-charger2019-annual.html</loc>
+<lastmod>2019-04-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/category/chickenhouse-chargerblog.html</loc>
 <lastmod>2019-03-27T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -284,21 +305,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://79ft.net/tag/flying.html</loc>
-<lastmod>2019-03-27T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://79ft.net/tag/6781g.html</loc>
-<lastmod>2019-03-27T00:00:00-05:51</lastmod>
+<lastmod>2019-04-06T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tag/ma5-charger.html</loc>
+<lastmod>2019-04-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/annual.html</loc>
+<lastmod>2019-04-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/flying.html</loc>
 <lastmod>2019-03-27T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
