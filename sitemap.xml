@@ -5,42 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/archives.html</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tags.html</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/categories.html</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/about/</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/swx-models/</loc>
-<lastmod>2019-05-17T11:12:00-00:00</lastmod>
+<lastmod>2019-06-18T00:42:07-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/dream-shopgeorgetown-annex-2019-06-17-hangar-redo/</loc>
+<lastmod>2019-06-17T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -305,6 +312,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://79ft.net/category/dream-shopgeorgetown-annex.html</loc>
+<lastmod>2019-06-17T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://79ft.net/category/dream-shoptooling.html</loc>
 <lastmod>2018-10-12T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
@@ -335,6 +349,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://79ft.net/category/skyboltwings.html</loc>
 <lastmod>2014-11-23T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/shop.html</loc>
+<lastmod>2019-06-17T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/hangar-tools.html</loc>
+<lastmod>2019-06-17T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -412,13 +440,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://79ft.net/tag/9891u.html</loc>
 <lastmod>2018-11-21T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://79ft.net/tag/shop.html</loc>
-<lastmod>2018-10-12T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
