@@ -292,7 +292,7 @@ to lay out in a reasonable fashion...</p>
 <div class="section" id="the-new-wiring-diagram">
 <h2>The New Wiring Diagram</h2>
 <p>I have posted it <a class="reference external" href="/files/6781G-new-electrical/6781G-wiring-diagram.pdf">in PDF over here</a>.</p>
-<p>Wire length / drop / load calculations are in an <a class="reference external" href="/files/6781G-new-electrical/6781G-wiring-load-schedule.xlsx">Excel spreadhseet over here</a>.</p>
+<p>Wire length / drop / load calculations are in the <a class="reference external" href="/files/6781G-new-electrical/6781G-wiring-load-schedule.xlsx">Excel spreadhseet over here</a>.</p>
 <ul class="simple">
 <li>The design is based on Figure Z-11 from AeroElectric Connection by Bob Nuckolls, with the following tweaks:<ul>
 <li>I'm using the B&amp;C LR3C Voltage Regulator, so it's wiring has been incorporated</li>
@@ -334,7 +334,7 @@ from Honeywell.</p>
 segment, and discharge current on the 12-o-clock-minus segment.</p>
 <p>Note that the buss feeder wire is protected by a slow-burn 35A current limiter. In Z-11, that wire is not protected at all. My
 reasoning for this decision is that this wire is relatively long on my plane (around 4 feet), since fuse block is near the
-rear cockpit, and I wanted to protect it.</p>
+rear cockpit. I wanted to protect it.</p>
 <p>One area of concern here is that in the event of alternator short, the Ammeter Shunt will be a part of the alternator circuit that
 will see a lot of current while the 40A slow burn opens up. My gutfeel says it should be able to handle it, but I am not sure. At
 any rate, figure Z-11 has the same setup with shunt on the alternator's B-Lead.</p>
@@ -344,7 +344,7 @@ any rate, figure Z-11 has the same setup with shunt on the alternator's B-Lead.<
 <p>LR3C Voltage Regulator needs a separate &quot;voltage sense&quot; wire that one would normally connect to the main buss. Since the
 regulator in my case is closer to the firewall than to the buss (fuse) block, I am connecting it to the main battery
 circuitry (jumper wire between Starter and Master contactors). This is somewhat a shorter run and seems that it will be
-more logical to measure as close to battery as possible (especially since I'm saving on wire lengths this way).
+more logical to measure as close to the battery as possible (especially since I'm saving on wire lengths this way).
 Seems sensible to me.</p>
 <p>The sense wire will be 20 AWG, about 3' long, and connected via 24 AWG fuselink.</p>
 </div>
@@ -365,11 +365,11 @@ version.</p>
  <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2019-08-11-design-v1/component-locations.jpg" title="Key component locations" >
    <img class="img img-responsive center-block"src="/entries/2019-08-11-design-v1/component-locations-thumb.jpg" title="Key component locations" alt="Key component locations" >
  </a> <p class="small text-center">Key component locations</p><p>Note that logically, the way one would wire this airplane would be to pre-wire switches and other items that go into the
-pilot's (back) instrument panel with long pigtails, then install and tie down wiring behind the panel. Then, the pigtails
-can be connected to loads.</p>
+pilot's (back) instrument panel with long pigtails, then install the switches, and tie down wiring behind the panel. Then,
+the pigtails can be connected to fuse block and loads.</p>
 <p>Some of the load wires already exist (lighting for example), and they will have to be spliced to wires coming from switches.</p>
-<p>I have decided instead to locate a kind of &quot;Main Connector&quot; (think of it as a &quot;terminal block&quot;) right there near the Fuse
-block which serves as the Buss. A wire comes off of the Fuse Block, goes to the switch on the panel, then switched power
+<p>I have decided instead to locate a kind of &quot;Main Connector&quot;  right there near the Fuse
+Block. A wire comes off of the Fuse Block, goes to the switch on the panel, then switched power
 is returned to the &quot;Main Connector&quot;. Load is on the other side of Main Connector.</p>
 <p>This serves a couple purposes:</p>
 <ul class="simple">
@@ -393,12 +393,11 @@ of unnecessary load in the event of alternator failure, or it was just done for 
 <p>It's a <a class="reference external" href="http://www.westach.com/instructions/Y2AT3-2.jpg">Westach gauge</a> that feeds off of a magneto P-Lead.
 No separate power going to it.</p>
 <p>Westach asks for a 1/4 A inline fuse. But why? Seems unnecessary (we don't need to fuse P-Leads).</p>
-<p>Wires going to the tach in my opinion need to be shielded P-Lead wires (with ground being in the shield). Not sure if I'm correct
-here.</p>
+<p>Wire going to this tach in my opinion need to be shielded P-Lead wire. Not sure if I'm correct here.</p>
 <p>I need to tie into one of the P-Leads. I have three options:</p>
 <p><strong>At magneto</strong>: I will effectively have two P-Leads coming off of one of them. I have Bendix mags, and connectors on those
-might make the whole hookup look ugly</p>
-<p><strong>At mag switch in the rear panel</strong>: just adds extra ~4 feet of wire for no reason</p>
+might make the whole hookup look ugly. Adds extra wire.</p>
+<p><strong>At mag switch in the rear panel</strong>: just adds extra ~4 feet of wire for no reason.</p>
 <p><strong>Y-Split the P-lead as it goes along the fuselage</strong>: this seems the most optimal wire-management wise, but I am not sure if
 splicing into a P-lead is kosher. I don't see any good reasons why that would be bad, but I don't know everything.
 This will likely be a soldered splice unless I find or someone suggests something better. This is my solution of choice at the
@@ -434,7 +433,7 @@ for just the strobes.</p>
 
             <hr class="dashed">
 
-              <p class="small"><i>It at first you don't succeed, well, so much for skydiving.</i></p>
+              <p class="small"><i>Remember, you’re always a student in an airplane.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -551,7 +550,8 @@ would not add too much expense, and be good for the system. I also want to modif
 
             <hr class="dashed">
 
-              <p class="small"><i>Keep the shiny side up and the greasy side down.</i></p>
+              <p class="small"><i>"If you want more room Captain, push your seat back."<br>
+  -ORD ATC</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -741,7 +741,7 @@ with some sealant or something, so that the dust doesn't get in. we'll see. Need
 
             <hr class="dashed">
 
-              <p class="small"><i>I’d rather be lucky than good.</i></p>
+              <p class="small"><i>Cessna pilots are always found in the wreckage with their hand around the microphone.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -926,7 +926,7 @@ and I really started to dig Molex connectors doing the fix - but we'll talk abou
 
             <hr class="dashed">
 
-              <p class="small"><i>Winds aloft reports are of incomparable value - to historians.</i></p>
+              <p class="small"><i>The future in aviation is the next 30 seconds. Long term planning is an hour and a half.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1175,7 +1175,7 @@ replaced spark plugs with desiccant.</p>
 
             <hr class="dashed">
 
-              <p class="small"><i>A terminal forecast is a horoscope with numbers.</i></p>
+              <p class="small"><i>Asking what a pilot thinks about the FAA is like asking a fireplug what it thinks about dogs.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1335,7 +1335,7 @@ flying for a looooong time.</p>
 
             <hr class="dashed">
 
-              <p class="small"><i>Why did God invent women when airplanes were so much fun?</i></p>
+              <p class="small"><i>The three most common phrases in airline aviation are “Was that for us?” “What'd he say?” and “Oh Shit!” Since computers are now involved in flying, a new one has been added: “What's it doing now?"</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1479,7 +1479,8 @@ rigidity of old neoprene rubber seals should help...</p>
 
             <hr class="dashed">
 
-              <p class="small"><i>It's better to be down here wishing you were up there, than up there wishing you were down here.</i></p>
+              <p class="small"><i>"About three miles ahead you've got traffic 12 o'clock, five miles."<br>
+  -ORD ATC</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1623,8 +1624,7 @@ baffles in the next post. And the downhill part, afterwards :).</p>
 
             <hr class="dashed">
 
-              <p class="small"><i>"Caution wake turbulence you're following a heavy 12 o'clock, three ... no, let's make it five miles."<br>
-  -ORD ATC</i></p>
+              <p class="small"><i>Regards engine power: Lots is good, more is better, and too much is just enough.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1696,7 +1696,7 @@ and then Tinnermans on top of it. Since Tinnermans are long, when undoing (or ti
 
             <hr class="dashed">
 
-              <p class="small"><i>Don't trust nobody and don't do nothing dumb.</i></p>
+              <p class="small"><i>He who sees first, lives longest.</i></p>
               <hr class="dashed">
 
                <a class="btn btn-default btn-small" href="#top">Up &#x2191;</a>
@@ -1805,8 +1805,7 @@ are <em>not</em> accessible, and I gave up on quite a bit of them around the rea
 
             <hr class="dashed">
 
-              <p class="small"><i>"American Two-Twenty, Eneey, meeny, miney, moe, how do you hear my radio?"<br>
-  -ORD ATC</i></p>
+              <p class="small"><i>The main thing is to take care of the main thing.</i></p>
               <hr class="dashed">
 
       <ul class="pagination">
