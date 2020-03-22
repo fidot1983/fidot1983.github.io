@@ -5,49 +5,56 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/archives.html</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tags.html</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/categories.html</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/about/</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/swx-models/</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/reference/</loc>
-<lastmod>2020-02-23T21:31:47-00:00</lastmod>
+<lastmod>2020-03-21T21:45:14-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/2020-03-21-mean-beast/</loc>
+<lastmod>2020-03-21T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -439,7 +446,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/category/blog.html</loc>
-<lastmod>2019-09-07T00:00:00-05:51</lastmod>
+<lastmod>2020-03-21T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -503,6 +510,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://79ft.net/category/skyboltwings.html</loc>
 <lastmod>2014-11-23T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/texas.html</loc>
+<lastmod>2020-03-21T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/smoking.html</loc>
+<lastmod>2020-03-21T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/bbq.html</loc>
+<lastmod>2020-03-21T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/brisket.html</loc>
+<lastmod>2020-03-21T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
