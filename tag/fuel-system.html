@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Fidot's projects log, blog, and website."><meta name="keywords" content="fidot, fi dot, n79ft, 79ft, skybolt,steen aero lab,lamar steen,steen skybolt,skybolt,aviation,curtis pitts,pitts model 14,pitts special,s1-c,s-1c,s1c,s-1-c,s1-ss,s-1ss,s1ss,s-1-ss,super stinker,ailerons,pitts model 12,s-1a,s-2a,s-2b,s-2s,s-2ss, acro,hale wallace, bruntons flying wires,bruntons landing wires, bruntons brace wires, bruntons tie rods, bruntons wire terminals,hoffman propellers,acro sport,eaa biplane,sport pilot,aerobatic biplane,sportsman,IAC,acrobatic, o-320,io-320,o-360,io-360,o-540,io-540,inverted fuel,open cockpit,canopy latch,fuselage,wings,tail,landing gear,bungee,undercarriage,tailwheel,taildragger,cleveland brakes,smoke system,airshow,plans,kitplane,kit airplane,airplane kit,experimental,airworthiness,gussetts,gussets,gusetts,jigs,spars,cabanes, scale documentation,3-views,3 views,plan view,aviation history, oshkosh,airventure,EAA,sport aviation,sport aerobatics,4130 steel, taylor tx, texas flying, aviation in texas,wooden biplane,homebuilt,workshop,woodworking">
+        <title>79FT - fuel system</title>
+
+        <!--
+        <link rel="stylesheet" href="http://79ft.net/theme/css/main.css" />
+        -->
+
+        <!-- FancyBox -->
+
+        <!-- FavIcon --> 
+
+        <link rel="icon" type="image/jpg" href="http://79ft.net/logos/icon_small.jpg">
+
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <!-- Font Awesome --> 
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script type="text/javascript" src="http://79ft.net/theme/css/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="http://79ft.net/theme/css/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="http://79ft.net/theme/css/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+        <!-- Optionally add helpers - button, thumbnail and/or media -->
+        <link rel="stylesheet" href="http://79ft.net/theme/css/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="http://79ft.net/theme/css/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="http://79ft.net/theme/css/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+        <link rel="stylesheet" href="http://79ft.net/theme/css/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <script type="text/javascript" src="http://79ft.net/theme/css/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    $(".fancybox").fancybox();
+            });
+        </script>
+
+        <!-- End Fancy Box -->
+
+        <!-- Bootstrap --> 
+
+        <link rel="stylesheet" href="http://79ft.net/theme/css/bootstrap/bootstrap.min.css"/>
+        <link rel="stylesheet" href="http://79ft.net/theme/css/ext.css"/>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- End Bootstrap --> 
+
+
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+</head>
+
+<body>
+     <a name="top"></a>
+     <div class="container">
+
+         <div class="row">
+           <p></p>
+         </div>
+
+         <div class="panel panel-default"> 
+           <div class="panel-body">
+            <table class="table" style="border: 0; margin-bottom: 0">
+              <tr> 
+               <td style="vertical-align: middle; border: 0; padding: 0"><h1>[79FT]: <small>Building Things</small></h1></td>
+               <td style="vertical-align: bottom; text-align:right; border: 0; padding: 0"><img src="http://79ft.net/logos/logo.jpg"></td>
+              </tr>
+            </table>
+           </div>
+          </div>
+
+         <div class="row">
+
+           <!-- Menu -->
+           <div class="col-sm-3 col-md-3 sidebar">
+
+             <!-- Main Menu --> 
+             <div class="panel panel-default"> 
+               <div class="panel-heading">
+                <b>Main</b>
+               </div> 
+               <div class="panel-body">
+                      <p><a href="/" alt="Home">Home</a></p>
+                      <p><a href="/pages/about/" alt="About">About</a></p>
+                      <p><a href="/category/blog.html" alt="Blog">Blog</a></p>
+                      <p><a href="/archives.html" alt="Archive">Archive</a></p>
+                      <p><a href="/rss.xml" alt="Subscribe (RSS)">Subscribe (RSS)</a></p>
+               </div>
+             </div>
+
+             <!-- Projects Menus - one per project --> 
+         
+               <div class="panel panel-default"> 
+                 <div class="panel-heading">
+                    <b>Chickenhouse Charger</b>
+                 </div> 
+
+                   <div class="panel-body">
+                          <p><a href="http://79ft.net/category/chickenhouse-charger2019-annual.html" alt="2019 Annual">2019 Annual</a></p>
+                          <p><a href="http://79ft.net/category/chickenhouse-chargerblog.html" alt="Blog">Blog</a></p>
+                          <p><a href="http://79ft.net/category/chickenhouse-chargerelectrical-rebuild.html" alt="Electrical Rebuild">Electrical Rebuild</a></p>
+                   </div>
+
+                    <div class="panel-footer">
+                      <a href="http://79ft.net/logs/chickenhouse-charger-log.html" alt="Log">Log</a>
+                    </div>
+
+               </div>
+
+               <div class="panel panel-default"> 
+                 <div class="panel-heading">
+                    <b>Misc</b>
+                 </div> 
+
+                   <div class="panel-body">
+                          <p><a href="http://79ft.net/category/miscb-log.html" alt="B Log">B Log</a></p>
+                          <p><a href="http://79ft.net/category/misccheetah.html" alt="Cheetah">Cheetah</a></p>
+                   </div>
+
+
+               </div>
+
+
+
+             <div class="panel panel-default"> 
+               <div class="panel-heading">
+                <b>Resources</b>
+               </div> 
+               <div class="panel-body">
+                <!--                 <ul class="nav nav-sidebar"> -->
+ 
+                        <p><a href="/pages/swx-models/">SolidWorks Models</a></p>
+ 
+ 
+                        <p><a href="/pages/reference/">Reference</a></p>
+ 
+               </div>
+             </div>
+
+             <div class="panel panel-default"> 
+               <div class="panel-heading">
+                <b>Links</b>
+               </div> 
+               <div class="panel-body">
+                <!--                 <ul class="nav nav-sidebar"> -->
+ 
+                        <p><a href="http://www.biplaneforum.com/" target="_blank">Biplane Forum</a></p>
+ 
+ 
+                        <p><a href="http://www.steenaero.com/" target="_blank">Steen Aerolab</a></p>
+ 
+                        <hr class="dashed">
+ 
+ 
+                        <p><a href="http://65degrees.net" target="_blank">Beej's Skybolt</a></p>
+ 
+ 
+                        <p><a href="http://southjerseypilot.com/" target="_blank">South Jersey Skybolt</a></p>
+ 
+ 
+                        <p><a href="https://www.facebook.com/DFKSkybolt" target="_blank">Dexter's Skybolt</a></p>
+ 
+                        <hr class="dashed">
+ 
+ 
+                        <p><a href="http://eaa187.org" target="_blank">TX EAA 187 (web)</a></p>
+ 
+ 
+                        <p><a href="https://www.facebook.com/eaa187" target="_blank">TX EAA 187 (facebook)</a></p>
+ 
+                        <hr class="dashed">
+ 
+ 
+                        <p><a href="http://aya.org" target="_blank">AYA</a></p>
+ 
+ 
+                        <p><a href="https://mailman.xmission.com/cgi-bin/mailman/listinfo/grumman-gang" target="_blank">Grumman Gang</a></p>
+ 
+ 
+                        <p><a href="http://www.aucountry.com/" target="_blank">AuCountry</a></p>
+ 
+               </div>
+             </div>
+
+             <!-- Tags --> 
+<div class="panel panel-default"> 
+               <div class="panel-heading">
+                <b>Tags</b>
+               </div> 
+               <div class="panel-body">
+                 <p>                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/4130.html" alt="4130">4130(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/6781g.html" alt="6781G">6781G(27)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/9891u.html" alt="9891U">9891U(8)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/ailerons.html" alt="ailerons">ailerons(8)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/alternator.html" alt="alternator">alternator(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/annual.html" alt="Annual">Annual(8)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/baffles.html" alt="baffles">baffles(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/bbq.html" alt="bbq">bbq(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/bending.html" alt="bending">bending(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/brakes.html" alt="brakes">brakes(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/brisket.html" alt="brisket">brisket(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/cables.html" alt="cables">cables(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/cad.html" alt="CAD">CAD(11)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/carb.html" alt="carb">carb(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/cgr30.html" alt="cgr30">cgr30(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/control-system.html" alt="control system">control system(5)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/controls.html" alt="controls">controls(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/drilling.html" alt="drilling">drilling(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/electrical.html" alt="electrical">electrical(14)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/elevator.html" alt="elevator">elevator(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/engine.html" alt="engine">engine(4)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/etching.html" alt="etching">etching(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/exhaust.html" alt="exhaust">exhaust(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/experiments.html" alt="experiments">experiments(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fabric.html" alt="fabric">fabric(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fabrication.html" alt="fabrication">fabrication(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fiberglass.html" alt="fiberglass">fiberglass(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fittings.html" alt="fittings">fittings(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/flying.html" alt="flying">flying(5)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fuel-system.html" alt="fuel system">fuel system(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fuselage.html" alt="fuselage">fuselage(4)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/fwf.html" alt="fwf">fwf(4)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/hangar.html" alt="hangar">hangar(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/house.html" alt="house">house(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/instruments.html" alt="instruments">instruments(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/lower-wings.html" alt="lower wings">lower wings(9)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/ma5-charger.html" alt="MA5 Charger">MA5 Charger(27)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/mechanicing.html" alt="mechanicing">mechanicing(4)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/mixture.html" alt="mixture">mixture(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/panel.html" alt="panel">panel(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/placards.html" alt="placards">placards(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/prop.html" alt="prop">prop(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/rant.html" alt="rant">rant(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/research.html" alt="research">research(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/ribs.html" alt="ribs">ribs(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/rotec-tbi.html" alt="Rotec TBI">Rotec TBI(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/sheet-metal.html" alt="sheet metal">sheet metal(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/shop.html" alt="shop">shop(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/smoking.html" alt="smoking">smoking(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/software.html" alt="software">software(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/soldering.html" alt="soldering">soldering(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/stories.html" alt="stories">stories(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/swx.html" alt="SWX">SWX(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/texas.html" alt="Texas">Texas(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/throttle.html" alt="throttle">throttle(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/tools.html" alt="tools">tools(8)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/torque-tube.html" alt="torque tube">torque tube(2)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/tube.html" alt="tube">tube(1)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/website.html" alt="website">website(3)</a><br>
+                 <a class="btn btn-primary btn-xs" style="margin-top: 3px" href="http://79ft.net/tag/wheels.html" alt="wheels">wheels(1)</a><br>
+                 </p>
+               </div>
+             </div>
+
+          </div>
+
+          <div class="col-sm-9 col-md-9 main">
+           <!--
+            <div class="panel panel-default"> 
+              <div class="panel-body">  -->
+
+        <div class="panel panel-default">
+<div class="panel-heading"><strong>Tagged with "fuel system":</div></strong>         <div class="panel-body">
+            <h1><a href="http://79ft.net/entries/2020-04-29-hosed/">The Fuel System Redo</a></h1>
+
+              <h4 class="text-right"><p class="first last">...hosed!</p>
+</h4>
+
+            <hr class="dashed"/>
+
+<table class="table table-condensed">
+
+ <tr>
+  <td style="border-top: 0; padding: 0; width: 20%"><strong>On:</strong></td>
+  <td style="border-top: 0; padding: 0">Apr 29, 2020</td>
+ </tr>
+
+ <tr>
+  <td style="border-top: 0; padding: 0"><strong>In:</strong></td>
+  <td style="border-top: 0; padding: 0">
+    <a href="http://79ft.net/category/chickenhouse-chargerelectrical-rebuild.html">[Chickenhouse Charger] Electrical Rebuild</a>
+  </td>
+ </tr>
+
+ <tr>
+  <td nowrap style="border-top: 0; padding: 0"><strong>Time logged:</strong></td>
+  <td style="border-top: 0; padding: 0">31.5</td>
+ </tr>
+
+ <tr>
+  <td style="border-top: 0; padding: 0"><strong>Tags:</strong></td>
+  <td style="border-top: 0; padding: 0">
+<a href="http://79ft.net/tag/6781g.html">6781G</a>, <a href="http://79ft.net/tag/ma5-charger.html">MA5 Charger</a>, <a href="http://79ft.net/tag/fuel-system.html">fuel system</a>, <a href="http://79ft.net/tag/fwf.html">fwf</a>  </td>
+ </tr>
+</table>
+<hr class="dashed"/><div class="section" id="trying-to-get-off-easily">
+<h2>Trying to Get off Easily</h2>
+<p>After <a class="reference external" href="http://79ft.net/entries/2020-02-23-xcers-brackets/">having mounted my transducers</a>,
+it was time to hook'em up.</p>
+<p>I also needed a new engine pump -&gt; carb hose, because the old one was too long.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-7.jpg" title="The old pump -> carb hose" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-7-thumb.jpg" title="The old pump -> carb hose" alt="The old pump -> carb hose" >
+ </a> <p class="small text-center">The old pump -> carb hose</p><p>And since I was dealing with hoses, I figured I'd clean up this monstrosity of the electric pump -&gt; engine pump hose.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-2.jpg" title="Ugly hose." >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-2-thumb.jpg" title="Ugly hose." alt="Ugly hose." >
+ </a> <p class="small text-center">Ugly hose.</p><p>There are a few options of course. Pre-fabbed hoses - you gotta measure carefully and they'll be made to the exact sizes you want.
+You can buy fittings and make your own. You can go with different styles - integrated silicone firesleeve or &quot;crimp on&quot;, rubber
+or teflon, yada yada.</p>
+<p>I decided to go with pre-fabbed. I did the math a number of times; and a pre-fabbed hose was cheaper than making my own.</p>
+<p><a class="reference external" href="https://www.tsflightlines.com/home.html">TS Flightlightlines</a> has a great reputation on the Biplane Forum, and are pretty much
+the go to guys.</p>
+<p>So, time to measure!</p>
+<p>I had to re-clock the fittings on the engine fuel pump, so I loosened the jam nuts...</p>
+<p>What? .... Jam nuts backed off, and fittings won't turn easily?! They should just unscrew!</p>
+<p>Fittings moved with a wrench - and I discovered .. my favorite, The White Schmoo of Death. The teflon dope.</p>
+<p>For some inexplicable reason, whomever undid the plumbing last time, re-plumbed it with the sealant everywhere. Okay, NPT fittings
+need sealant (though, a choice of a crumbly drying type stuff is questionable - because when it's left in a female fitting, getting
+it out without it getting it's crumbs into the system is almost impossible). But o-ring boss? Where there's a straight thread fitting
+with a nut and an o-ring? No sir! The o-ring seals it just fine! Siiigh.</p>
+<p>Here it is. That lovely sealant.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-3.jpg" title="Sealant where it shouldn't be" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-3-thumb.jpg" title="Sealant where it shouldn't be" alt="Sealant where it shouldn't be" >
+ </a> <p class="small text-center">Sealant where it shouldn't be</p><p>I already <a class="reference external" href="http://79ft.net/entries/2019-05-17-race-for-the-engine/">had a ton of questionable fun</a> when trying to get
+it out of the TBI. Frankly, I was glad I tossed the TBI altogether, hoping that that was the only place I'd
+find it... Only to.. Oh well.</p>
+<p>I had to take the pump out. No way I could clean out that damn stuff out of the hole w/o getting it all inside.</p>
+<p>Slowly and steadily, with the hole pointed down, I scraped and scraped and scraped it with my dental pick, followed with a brush wetted
+in Goof Off that kinda softens it. It was.. hours. For two holes.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-4.jpg" title="Clean." >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-4-thumb.jpg" title="Clean." alt="Clean." >
+ </a> <p class="small text-center">Clean.</p><p>Phew. The pump went back on, and finally, I could clock the fittings how I wanted them.</p>
+<p>I used a few old hoses I had lying around, and chunks of safety wire to mock up my new ones; measured the mockups, and
+made a bunch of pictures like this:</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-15.jpg" title="A drawing of a hose" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-15-thumb.jpg" title="A drawing of a hose" alt="A drawing of a hose" >
+ </a> <p class="small text-center">A drawing of a hose</p><p>Next morning, I called TS.</p>
+<p>Tom, the owner, is the guy who answers the phone. A quick email with pictures, a quick conversation about various hose ends
+(we ended up doing a few -3's instead of -2's as I had before), etc etc - and the order was in.</p>
+<p>And, a few days later, a box showed up at my door!</p>
+<p>Next time at the hangar, I tried them on. The hoses were perfect! But, something I haven't considered before...</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-21.jpg" title="Tee to engine pump" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-21-thumb.jpg" title="Tee to engine pump" alt="Tee to engine pump" >
+ </a> <p class="small text-center">Tee to engine pump</p><p>There's a tee. Right side is connected to the gascolator. Left side - to the electrical pump. Both horizontal sides
+of the tee are connected with aluminum tubing. Notice the adel on the right holding onto the flare nut. The adel on the left,
+barely visible, is holding onto the <em>tube</em> - motor mount geometry isn't allowing it to grab onto the nut.</p>
+<p>And the whole thing is aluminum, and the hose is creating a ton of leverage onto that tee.</p>
+<p>It's not the problem with my hose. I should've realized this before I even ventured there. The old hose had the same problem, of course.</p>
+<p>Aluminum has fatigue life. The motor shakes. The whole thing shakes, connected by the hose. How that tee didn't crack is...
+anyone's guess. On top of that, how the tube didn't crack is even more miraculous.</p>
+<p>I showed it to Deene Ogden - one of our Chapter's very experienced guys. He agreed with my hunch. His suggested fix was to attempt
+to tie that hose end somehow into the firewall, so that it doesn't create that much leverage.</p>
+<p>Well, easier said than done. Firewall on this thing is .035 - and not rigid at all.</p>
+<p>I showed it to Tom (the TS Flightlines guy). He thought that even the fact that there's aluminum tubing between firewall
+and engine mount is a bad thing - though there the relative motion is small, it still might crack a tube or a flare.</p>
+<p>Top that with my general dislike towards the non-firesleeved sections of aluminum tubing firewall forward (I admit, I actually
+attempted to figure out a nice way to sleeve them), and incorrectly plumbed fuel transducer (it was on the &quot;suction&quot; side -
+before all the pumps - and it <em>is</em> a restriction - and a restriction on a sucking side is a potential for vapor lock) - and I,
+in my usual manner, decided to, of course, rebuild the whole thing.</p>
+</div>
+<div class="section" id="disassembly">
+<h2>Disassembly</h2>
+<p>Well, that was easy - except for my favorite white crap everywhere. All the fittings were aluminum, and most of the fittings
+weren't AN.</p>
+<p>Now, similar to a conversation of which sealant to use on NPT threads (you can start a fight amongst best friends by bringing it up!),
+there's a massive holy war on aluminum vs. steel FWF. I am in the steel camp.</p>
+<p>And there's another, smaller holy war, about using &quot;racing&quot; fittings. Folks that do say &quot;if it's good for NASCAR, it's good
+enough for us&quot;. I don't know. I don't buy that. First of, those fittings are of extremely varying quality (AN level all the way
+down to cheap Chinesium). Second, race cars are rebuilt all the time - and in an airplane, I bet some of those are 40 years old. Or 20.
+You get the idea.</p>
+<p>So I am firmly in the &quot;AN, steel&quot; camp. Even though they are $20 a pop.</p>
+<p>Transducer was the hardest to clean out, because I needed to make sure none of that white crud went into it. My friend and hangar neighbor Dick G. suggested running a tap with flutes filled with grease to pick up the crud... hmm... I didn't have the right size
+tap, and that sounded a bit too extreme.. but the idea..</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-28.jpg" title="The Schmoo Cleaner" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-28-thumb.jpg" title="The Schmoo Cleaner" alt="The Schmoo Cleaner" >
+ </a> <p class="small text-center">The Schmoo Cleaner</p><p>I filed a few grooves into one of those fittings I took out.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-30.jpg" title="It works!" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-30-thumb.jpg" title="It works!" alt="It works!" >
+ </a> <p class="small text-center">It works!</p><p>It worked! See it picked up some grey stuff? Of course, I used it for final scrubbing after fishing out most of the crud with my
+dental pick.</p>
+<p>Thankless work.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-25.jpg" title="Gasolator" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-25-thumb.jpg" title="Gasolator" alt="Gasolator" >
+ </a> <p class="small text-center">Gasolator</p><p>So. Much. Of. It. On the gascolator, I didn't care about it falling inside - I could flush it.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-43.jpg" title="Cleaning the gascolator" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-43-thumb.jpg" title="Cleaning the gascolator" alt="Cleaning the gascolator" >
+ </a> <p class="small text-center">Cleaning the gascolator</p><p>Absolutely thankless work.</p>
+</div>
+<div class="section" id="the-plan-and-the-mockups">
+<h2>The Plan, and the Mockups</h2>
+<p>So since we're redoing the whole thing; first thing I was gonna do is dump the parallel plumbing of the pumps. I guess,
+Remo's idea was that in case the electric pump fails in a mode where it blocks the flow of fuel thru it, the gas
+will still be able to go thru the &quot;alternative&quot; branch and still reach the mechanical pump.</p>
+<p>Not sure about that. I am very used to Grummans, which are plumbed in series (electrical -&gt; engine pump -&gt; carb),
+and I have not heard of a single failure there. I have heard of this type failure on an RV, which used a solid state
+Facet pump that Facet tells you not to use on airplanes.</p>
+<p>Okay, actually, this whole Facet pump situation is interesting, apparently. Bendix used to make these electrical pumps, but
+then Facet bought that part of their business. Nowadays, they explicitly tell you not to use their pumps on airplanes!</p>
+<p>But, Dave Fletcher of <a class="reference external" href="http://fletchair.com">Fletchair</a> fame buys batches of particular Facet models, and runs tests on them. He
+sells off the ones that don't pass (apparently, flow rates vary wildly), and tags the ones that pass. He then sells them to Grumman
+folk.</p>
+<p>Hey, good enough for Grumman - good enough for me! I can have my much simpler series system (less hoses, less connections, less
+fittings, less space), and trust the pump. And they're cheap! (Well, relatively speaking).</p>
+<p>So, I got a pump from Fletch and bolted it on.</p>
+<p>Transducer was the next big ticket item. It had to go between the engine driven pump, and the carb - the &quot;last step&quot; in the chain.</p>
+<p>I needed something to mock things up. I needed hose ends.</p>
+<p>... now, what's with those racing hose ends?</p>
+<p>I called Mario - a great guy who fixes my cars when I don't want to :). His thing is drag racing.</p>
+<p>He knew a place.</p>
+<p>Couple hours later, and with a lighter wallet, I had a bag of fittings that were close enough in size, and a chunk of hose to cut up.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-33.jpg" title="One of the first x-cer mockups" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-33-thumb.jpg" title="One of the first x-cer mockups" alt="One of the first x-cer mockups" >
+ </a> <p class="small text-center">One of the first x-cer mockups</p><p>This was the first. Followed what Fletcher did on the Cheetah back when we
+<a class="reference external" href="http://79ft.net/entries/cgr-30/">installed the CGR-30</a>, but on the Cheetah the hose went back towards the firewall
+and did a nice 180 u-turn, and came back to the carb. Here, I had to go &quot;sideways&quot; to do this &quot;hanging&quot; style if I wanted it. It
+produced a weird low spot in the loop that I didn't like.</p>
+<p>Next!</p>
+<p>Could I maybe still have the x-cer on the firewall, and reuse some of the holes?</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-40.jpg" title="Second mockup" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-40-thumb.jpg" title="Second mockup" alt="Second mockup" >
+ </a> <p class="small text-center">Second mockup</p><p>Much better I thought. I ran those by Tom of TS Flightlines. He thought the second setup was better, and recommended using
+one of his fancy &quot;u-turn&quot;
+fittings to save on the hose length. He gave me dimensions. I realized that I suck at mocking things up, and asked him if he
+would be able to send me the fitting (I would gladly pay for it). He said, of course. He could send me whatever fittings I wanted,
+and just figure the cost in the end. I'd make mockups and send them to him. Heck, he'd send me the hose too - and I'd cut it to size,
+and make the hoses - then send them back to him, and he'll crimp and firesleeve them.</p>
+<p>Wow.</p>
+<p>And he was a treasure trove of information. Basically, hand-held me all the way. And I took it, and am very grateful. This was my
+first plumbing job - so I needed the help.</p>
+<p>One big fear I had was running bent fittings before and after the transducer, because they can induce turbulence in the flow.
+Tom said that they ran them in whichever configuration, and they work fine with the setup he was suggesting. That was a great relief
+too.</p>
+<p>So, I made my &quot;shopping&quot; list, and he put the fittings in the mail.</p>
+<p>I got them, and ran over to the nearby auto parts place to get some hose for the mockup (I decided not to fiddle with cutting
+braided teflon hose). The guy took me back, we found the right I.D. stuff. I asked for ten feet. &quot;This is fuel hose, it's expensive&quot;,
+said the guy. I asked how much. &quot;Two-something a foot&quot;, was the response.</p>
+<p>I almost cracked up. I then told him that the fitting I brought in to check, that one fitting, was probably twice as much as 10 feet
+of that hose. We then had a very nice conversation about everything airplanes :).</p>
+<p>My final mockup, with fittings from Tom, looked like this:</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-100.jpg" title="The Final Mockup" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-100-thumb.jpg" title="The Final Mockup" alt="The Final Mockup" >
+ </a> <p class="small text-center">The Final Mockup</p><p>The gascolator hookup looks funny, doesn't it? It's &quot;reversed&quot; - because otherwise, I had no room for hoses at all.</p>
+<p>And then, the mock hoses were sent back to Tom for final fabrication.</p>
+</div>
+<div class="section" id="the-gascolator">
+<h2>The Gascolator</h2>
+<p>Somewhere in between all the mocking up and messing around, I had to figure out what to do with the gascolator. See, it had no
+mount. None.</p>
+<p>It was basically &quot;hanging&quot; on the fittings coming into each side, and rigid aluminum tubing. Yeah. Ugh. But that's besides the
+point - with flexible hoses, it'll be bouncing in that &quot;ring holder&quot; that isn't holding it at all, apparently.</p>
+<p>I'll admit, buying a new gascolator with mounting options crossed my mind. But then.. I thought, maybe some kind of latch..</p>
+<p>Something that will hook to the bottom of the ring on the gascolator, and the top of that &quot;bracket&quot; and pull it up.</p>
+<p>I search McMaster and other catalogues and couldn't find anything... An idea crossed my mind.. maybe..</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-48.jpg" title="Worm Latch!" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-48-thumb.jpg" title="Worm Latch!" alt="Worm Latch!" >
+ </a> <p class="small text-center">Worm Latch!</p><p>That's a worm clamp I cut up, straightened, and bent a couple of hook ends in.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-49.jpg" title="Side view" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-49-thumb.jpg" title="Side view" alt="Side view" >
+ </a> <p class="small text-center">Side view</p><p>The felt prevents the worm mechanism housing from scratching the gascolator, and the heatshrink makes the hooks non-marring.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-50.jpg" title="Installed!" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-50-thumb.jpg" title="Installed!" alt="Installed!" >
+ </a> <p class="small text-center">Installed!</p><p>It worked! I made two more - planning to have them at 120 degrees to each other around the gascolator.</p>
+<p>The diameter of the gascolator's top was a smidge undersized for the ring it was in - Glenn had some kind of a sticky foam
+in there. I replaced it with proper, aircraft grade felt :).</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-44.jpg" title="Felt pad" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-44-thumb.jpg" title="Felt pad" alt="Felt pad" >
+ </a> <p class="small text-center">Felt pad</p><p>And then, the drain.</p>
+<p>The quickdrain on that bowl was leaking. I found that a looong time ago, and attempted to replace it. Obviously, I had to take
+the old one out....</p>
+<p>... only to discover that the threads on the bowl were all chewed up.</p>
+<p>No problem, thought I, and ordered a new bowl from Spruce.</p>
+<p>The threads on that one.. looked even worse.</p>
+<p>I contacted Spruce. No problem! They sent me a new one.....</p>
+<p>... slightly better, but still chewed up!</p>
+<p>Here's one of the pictures I sent to Spruce back then, just for illustration.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/gask.jpg" title="Bad threads" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/gask-thumb.jpg" title="Bad threads" alt="Bad threads" >
+ </a> <p class="small text-center">Bad threads</p><p>They said, they will talk to the manufacturer, and have them direct ship one to me. Then, they got silent for a long time, and
+then I somehow ended up with two? I think? All with bad threads.</p>
+<p>All and all, I ended up with <em>five</em> bowls. That happened almost a year ago, and frankly, I don't exactly remember how exactly the
+fifth happend, but I ended up with five.
+And Spruce didn't want them back. And they refunded me the money.</p>
+<p>But that was then. This was now. Now, I had a tap just the right size, and was set up in the hangar.</p>
+<p>This is a 1/8&quot; NPT thread - so tapping it just a hair further would re-cut the bad parts and remove a bit more material, fixing
+the threads.</p>
+<p>So I took one of the bowls, re-tapped the hole, and started putting in the quickdrain. Ha! Not so easy. There's nothing on the bowl to
+grab onto, and I had to tighten the quick drain pretty tight (1 1/2 to 2 turns past hand tight).</p>
+<p>I kinda tried to use my vise to help me - holding onto the round thing isn't easy but I tried, using my hand too... Clack! The wrench
+slipped, and the bowl went bouncing on the floor.</p>
+<p>A bit of damage surveillance showed a nick on the lip where it contacts the rubber seal on the gascolator top, and my better part decided
+that I need to be punished and re-do it. Heck, I had FIVE bowls!</p>
+<p>So, I tapped the second one. The quick drain went in. It was annoying, but I managed. 1 1/2 turns.</p>
+<p>Hmm.. Why does it look so weird... and not work?
+Hmm.... Did the torque and compressing the hollow quickdrain with &quot;wedge&quot; action of NPT thread mess it up? Evidently.</p>
+<p>But I turned it 1 1/2 turns!!</p>
+<p>Idiot me, of course. The 1 1/2 turns is probably too much to begin with (though Vans recommends it in their manual). And besides, they
+talk about AN plumbing fittings. Not special fittings like this quick drain.</p>
+<p>I googled &quot;Curtiss Quick Drain Torque&quot;... Sure enough. Tiny. 40 inch pounds if I remember correctly. Way to be an idiot, dude.</p>
+<p>But I have three more bowls to mess up!</p>
+<p>Okay, bowl number three.... tap... attempt to hold... slip.. fall... DING! Damn.</p>
+<p>This is stupid, I know. I had to stop and figure out a fixture to hold the bowl while torquing the fitting after the first one
+slipped out of the vice (try holding a round object in a vice w/o a fixture?! Idiot). This was the ... &quot;try to get away with it&quot; mode.</p>
+<p>Enough. See, I was in such a weird state of mind I didn't take any pictures?</p>
+<p>And the solution was simple and right there, of course.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-57.jpg" title="The solution" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-57-thumb.jpg" title="The solution" alt="The solution" >
+ </a> <p class="small text-center">The solution</p><p>A 2x4 and a hole saw.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-58.jpg" title="Holding!" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-58-thumb.jpg" title="Holding!" alt="Holding!" >
+ </a> <p class="small text-center">Holding!</p><p>See? Not even pretty. Not even the right diameter. But it worked, of course.</p>
+<p>So, yeah...</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-59.jpg" title="Ugh..." >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-59-thumb.jpg" title="Ugh..." alt="Ugh..." >
+ </a> <p class="small text-center">Ugh...</p><p>BTW, see that quickdrain all bent out on the second from the left bowl (numbered 1)? That's the overtorqued one.</p>
+<p>But hey! I got a pile of bowls to talk about on my bench now. &quot;How not to be an idiot and what happens when you are&quot;.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-66.jpg" title="The Pile of Shame" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-66-thumb.jpg" title="The Pile of Shame" alt="The Pile of Shame" >
+ </a> <p class="small text-center">The Pile of Shame</p></div>
+<div class="section" id="the-hookups">
+<h2>The Hookups</h2>
+<p>Well, the rest of this was fairly uneventful.</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-56.jpg" title="Hoses!" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-56-thumb.jpg" title="Hoses!" alt="Hoses!" >
+ </a> <p class="small text-center">Hoses!</p><p>The hoses showed up, and I already had the fittings arrived earlier from Spruce.</p>
+<p>I messed with the transducer a ton. That was another hard part to hold - and I'll admit to bending it's outside box
+(that's non-sequitir but annoying). This transducer is weird - it has it's body and it's brains all in a very thin sheet stainless
+&quot;box&quot;, making it virtually impossible to hold onto and screw the fitting in. But the bend in that body doesn't affect anything - it's
+like a &quot;cover&quot;.</p>
+<p>I'll admit to thinking I overtorqued the transducer fittings, too - and removing them to check for cracks (only to find that no,
+I actually didn't overtorque them - the manufacturer's spec was higher).</p>
+<p>But in the end, it all worked out for the initial hookup. I'll have to tighten everything and clean up the angles on the fittings
+a bit when getting closer to the engine start; but the initial fit up worked great. Tom did a great job!</p>
+ <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-63.jpg" title="New hoses" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-63-thumb.jpg" title="New hoses" alt="New hoses" >
+ </a> <p class="small text-center">New hoses</p> <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-62.jpg" title="New hoses" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-62-thumb.jpg" title="New hoses" alt="New hoses" >
+ </a> <p class="small text-center">New hoses</p> <a class="fancybox fancybox-thumb" rel="figures" href="/entries/2020-04-29-hosed/h-65.jpg" title="Oil perssure transducer hose" >
+   <img class="img img-responsive center-block"src="/entries/2020-04-29-hosed/h-65-thumb.jpg" title="Oil perssure transducer hose" alt="Oil perssure transducer hose" >
+ </a> <p class="small text-center">Oil perssure transducer hose</p></div>
+
+            <hr class="dashed">
+
+              <p class="small"><i>Think ahead of your airplane.</i></p>
+              <hr class="dashed">
+
+         </div>
+        </div>
+
+
+                <!-- </div> -->
+                <!--</div> -->
+          </div>
+       </div>
+
+
+       <div class="row">
+         <div class="col-md-12">
+          <hr>
+         </div>
+       </div>
+
+
+      <div class="row">
+         <div class="col-md-4">
+          <small>Powered by <a href="https://github.com/fidot1983/b-log">B-Log</a>, which is based on <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>, heavily plugged and themed.</small>
+         </div>
+         <div class="col-md-4">
+            <p><small>&copy; Copyright "79FT". All rights reserved. Feel free to cite, but link back to the pages cited.</p>
+         </div>
+         <div class="col-md-4">
+           <p>
+           This website only shows how I did things in my various projects. These pages are for information and personal entertainment
+           only and not to be construed as the only way, or even the perceived correct way of doing things. 
+           You are responsible for your own safety and techniques.
+           </p>
+         </div>
+
+      </div>
+
+      <div class="row">
+         <div class="col-md-12">
+           
+         </div>
+      </div>
+
+   </div>
+
+</body>
+</html>
