@@ -5,49 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/archives.html</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tags.html</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/categories.html</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/about/</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/swx-models/</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/pages/reference/</loc>
-<lastmod>2020-08-02T03:12:45-00:00</lastmod>
+<lastmod>2020-09-07T23:36:17-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/2020-09-07-wiring-3/</loc>
+<lastmod>2020-09-07T00:00:00-05:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/entries/2020-09-06-wiring-2/</loc>
+<lastmod>2020-09-06T00:00:00-05:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -495,7 +509,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/category/chickenhouse-chargerelectrical-rebuild.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -544,42 +558,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/tag/6781g.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tag/ma5-charger.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tag/electrical.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://79ft.net/tag/soldering.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://79ft.net/tag/fwf.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://79ft.net/tag/panel.html</loc>
-<lastmod>2020-07-26T00:00:00-05:51</lastmod>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/instruments.html</loc>
+<lastmod>2020-09-07T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/soldering.html</loc>
+<lastmod>2020-09-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/fwf.html</loc>
+<lastmod>2020-09-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/magnetoes.html</loc>
+<lastmod>2020-09-06T00:00:00-05:51</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://79ft.net/tag/p-lead.html</loc>
+<lastmod>2020-09-06T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -796,13 +831,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://79ft.net/tag/research.html</loc>
-<lastmod>2019-06-18T00:00:00-05:51</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://79ft.net/tag/instruments.html</loc>
 <lastmod>2019-06-18T00:00:00-05:51</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
